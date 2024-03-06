@@ -22,7 +22,6 @@ The creation of docker client and docker server will be considered.
    - linux-macOS.sh script
    # Depending on your OS
    - windows.bat script
-- README.md
   
 1.- We will install docker desktop:
      https://docs.docker.com/get-docker/
