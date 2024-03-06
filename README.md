@@ -1,43 +1,43 @@
-# Prueba Técnica Python
+# Python Technical Test
 
-La prueba consistiría en realizar un chat entre dos PC usando Python en una arquitectura clientes/servidor.
+The test would consist of making a chat between two PCs using Python in a clients/server architecture.
 
-Script a) - Servidor
+Script a) - Server
 
-Script b) - Clientes
+Script b) - Clients
 
-El objetivo es que 2 clientes se conecten al servidor, y a partir de ahí, 
-ambos puedan intercambiarse mensajes.
+The goal is for 2 clients to connect to the server, and from there,
+Both can exchange messages.
 
-Todos los mensajes, los debes guardar en un log de mensajes.
-Los mensajes a enviar deben ser de forma asíncrona (enviar mensajes sin necesidad de una recepción previa).
-El sistema debe ser dockerizado, al menos en un docker. 
-Se valorará la creación de docker cliente y docker servidor.
+You must save all messages in a message log.
+The messages to be sent must be asynchronous (send messages without prior reception).
+The system must be dockerized, at least in one docker.
+The creation of docker client and docker server will be considered.
 
 - Enerclic:
-  - client.py
-  - server.py
-  - Dockerfile
-  # Dependiendo de tu SO
-  - script linux-macOS.sh 
-  # Dependiendo de tu SO
-  - script windows.bat 
-  - README.md
+   - client.py
+   - server.py
+   - Dockerfile
+   # Depending on your OS
+   - linux-macOS.sh script
+   # Depending on your OS
+   - windows.bat script
+   - README.md
   
-1.- Instalaremos docker desktop:
-    https://docs.docker.com/get-docker/
+1.- We will install docker desktop:
+     https://docs.docker.com/get-docker/
 
-2.-Una vez instalado docker, instalaremos Python.
-    https://www.python.org/downloads/
+2.-Once docker is installed, we will install Python.
+     https://www.python.org/downloads/
 
-3.- Una vez todo instalado, iremos al directorio y ejecutaremos el script
-    script windows.bat  / script linux-macOS.sh
+3.- Once everything is installed, we will go to the directory and execute the script
+     script windows.bat / script linux-macOS.sh
 
-4.- El script montará el contenedor del servidor y abrirá 2 clientes para comenzar el chat.
+4.- The script will mount the server container and open 2 clients to start the chat.
 
 
-# Enlaces y Recursos
+# Links and Resources
 
-- Documentación:
-  - Docker - https://docs.docker.com/
-  - Python - https://docs.python.org/3/
+- Documentation:
+   - Docker - https://docs.docker.com/
+   - Python - https://docs.python.org/3/
