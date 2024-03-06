@@ -30,7 +30,7 @@ The creation of docker client and docker server will be considered.
      https://www.python.org/downloads/
 
 3.- Once everything is installed, we will go to the directory and execute the script
-     script windows.bat / script linux-macOS.sh
+     "script windows.bat" / "script linux-macOS.sh"
 
 4.- The script will mount the server container and open 2 clients to start the chat.
 
