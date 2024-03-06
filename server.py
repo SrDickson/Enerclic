@@ -64,9 +64,6 @@ class Server:
                     # Encode and write the message to each client
                     client.write(message.encode())
 
-                    # Uncomment the following line if using await client.drain() is desired
-                    # await client.drain()
-
                 except (asyncio.CancelledError, BrokenPipeError, OSError):
                     # Ignore exceptions related to writing to the socket
                     pass
